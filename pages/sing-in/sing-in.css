@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --main-color: hotpink;
+    --background-color:#D33232;
+
+    --color-facebook: #1877F2;
+    --color-apple: #000000;
+    --color-gmail: #F0B501;
+
+    --color-secundary: #041522;
+
+    --color-text: #FFFFFF;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.background-image {
+    background-image: url('../../assets/img/background-short.png'); /* Substitua 'background-image.jpg' pelo caminho da sua imagem de fundo */
+    background-repeat: no-repeat;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    background-color: var(--background-color); /* Fundo vermelho com opacidade */
+    padding: 20px;
+    text-align: center;
+    border-radius: 36px 36px 0 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.login-menu {
+    color: var(--color-text);
+}
+
+.apple-button {
+    background-color: var(--color-apple);
+}
+
+.facebook-button {
+    background-color: var(--color-facebook);
+}
+
+.gmail-button {
+    background-color: var(--color-gmail);
+}
+
+.email-button {
+    background-color: var(--color-secundary);
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+button {
+    color: var(--color-text);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 344px;
+    height: 48px;
+    font-family: 'Inter';
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icon-logo {
+
+}
+
+a.anonymous-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+}
